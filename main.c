@@ -19,7 +19,6 @@ void listThreads(unsigned long processID)
         return;
     }
     THREADENTRY32 te;
-
     te.dwSize = sizeof(THREADENTRY32);
 
     if (Thread32First(threadSnap, &te))
@@ -49,7 +48,6 @@ void listProcess(int processDetail)
     }
 
     PROCESSENTRY32 pe;
-
     pe.dwSize = sizeof(PROCESSENTRY32);
 
     printf("Name%43sPid%2sPri%2sThd \n\n"," ", " ", " ", " " );
