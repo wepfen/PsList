@@ -2,6 +2,10 @@
 
 This guide provides instructions on how to set up your Windows environment for compiling projects using `make` and Microsoft Visual Studio's `cl.exe`.
 
+## Compilation with only msbuild tools
+
+Run the `build_without_makefile.bat`
+
 ## Requirements
 
 ### Installing Chocolatey
