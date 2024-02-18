@@ -1,4 +1,4 @@
-NAME    =   pslist.exe
+NAME    =   plist.exe
 SRCS    =   $(wildcard *.c)
 OBJS    =   $(SRCS:.c=.obj)
 
