@@ -4,7 +4,9 @@ This guide provides instructions on how to set up your Windows environment for c
 
 ## Compilation with only msbuild tools
 
-Run the `build_without_makefile.bat`
+Run the `build_without_makefile.bat` in the directory with main.c
+
+## Compilation with a makefile
 
 ## Requirements
 
